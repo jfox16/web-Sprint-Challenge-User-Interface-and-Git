@@ -52,7 +52,6 @@ table {
 }
 
 html, body {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -66,13 +65,18 @@ p {
     line-height: 1.4;
 }
 
+html {
+    min-height: 100vh;
+}
+
+body {
+    height: 100%;
+}
+
 .nav-flexbox {
     display: flex;
     align-items: flex-start;
     margin: 20px 0;
-}
-
-.lambda-logo {
 }
 
 .navbar {
