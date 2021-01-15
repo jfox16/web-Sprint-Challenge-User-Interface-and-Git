@@ -108,6 +108,11 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .about-text-container {
+    padding: 0 2%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -186,6 +191,37 @@ p {
 
 .box:nth-child(10) {
     background: dodgerblue;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.about-content div {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin: 3% 0;
+}
+
+.about-content div img {
+    margin: 2% 0;
+    width: 100%;
+}
+
+.about-content div a {
+    border: 2px solid black;
+    border-radius: 0.6em;
+    color: black;
+    display: inline-block;
+    margin: 5% 0;
+    padding: 2% 5%;
+    text-decoration: none;
+}
+
+.lets-work-together-content {
+    margin: 5% 2%;
 }
 
 footer {
